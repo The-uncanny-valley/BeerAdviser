@@ -2,6 +2,8 @@
     <string name="app_name">Beer Adviser</string>
     <string name="find_beer">Find Beer!</string>
     <string name="brands">No beers selected</string>
+    <string name="beer">BEER</string>
+    <string name="adviser">adviser</string>
     <string-array name="beer_colors">
         <item>light</item>
         <item>amber</item>
