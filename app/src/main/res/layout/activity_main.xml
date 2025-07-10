@@ -16,13 +16,13 @@
 
     <Spinner
         android:id="@+id/color"
-
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
         android:layout_gravity="center"
         android:layout_margin="16dp"
         android:layout_marginTop="20dp"
-        android:entries="@array/beer_colors" />
+        android:entries="@array/beer_colors"
+        android:minHeight="48dp" />
 
     <Button
         android:id="@+id/find_beer"
