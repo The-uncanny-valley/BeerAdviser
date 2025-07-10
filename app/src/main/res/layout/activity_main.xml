@@ -4,18 +4,19 @@
     android:id="@+id/main"
     android:layout_width="match_parent"
     android:layout_height="match_parent"
+    android:background="@color/white"
     android:orientation="vertical"
     android:padding="16dp"
-    android:background="@color/white"
     tools:context=".MainActivity">
 
     <Space
         android:layout_width="match_parent"
-        android:layout_weight="1"
-        android:layout_height="0dp" />
+        android:layout_height="0dp"
+        android:layout_weight="1" />
 
     <Spinner
         android:id="@+id/color"
+
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
         android:layout_gravity="center"
@@ -30,7 +31,8 @@
         android:layout_gravity="center"
         android:layout_margin="16dp"
         android:backgroundTint="@color/black"
-        android:paddingHorizontal="30dp"
+        android:fontFamily="@font/poppins_medium"
+        android:paddingHorizontal="35dp"
         android:paddingVertical="10dp"
         android:text="@string/find_beer"
         android:textSize="20sp" />
@@ -38,10 +40,12 @@
     <TextView
         android:id="@+id/brands"
         android:layout_width="wrap_content"
-        android:layout_height="wrap_content"
+        android:layout_height="100dp"
         android:layout_gravity="center"
-        android:layout_margin="16dp"
-        android:text="@string/brands" />
+        android:layout_margin="8dp"
+        android:fontFamily="@font/poppins_medium"
+        android:text="@string/brands"
+        android:textSize="16sp" />
 
     <Space
         android:layout_width="match_parent"
