@@ -26,7 +26,11 @@ The app helps users find beer brand recommendations based on the selected beer c
 
 ## Screenshots
 
-
+<p align="center">
+  <img src="Screenshot_2.png" alt="Main Screen" width="250"/>
+  &nbsp;&nbsp;&nbsp;
+  <img src="Screenshot_1.png" alt="Beer Results" width="250"/>
+</p>
 
 ## Getting Started
 
