@@ -34,6 +34,7 @@
         android:fontFamily="@font/poppins_medium"
         android:paddingHorizontal="35dp"
         android:paddingVertical="10dp"
+        android:textColor="@color/white"
         android:text="@string/find_beer"
         android:textSize="20sp" />
 
@@ -43,6 +44,7 @@
         android:layout_height="100dp"
         android:layout_gravity="center"
         android:layout_margin="8dp"
+        android:textColor="@color/black"
         android:fontFamily="@font/poppins_medium"
         android:text="@string/brands"
         android:textSize="16sp" />
